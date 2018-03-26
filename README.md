@@ -28,6 +28,7 @@ Executando a instalação:
 
     rpm -Uvh squidanalyzer-endian3-1.0-1.x86_64.rpm
     
+    <br>
 
 Removendo o pacote:
 --------

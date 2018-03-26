@@ -8,13 +8,13 @@ Versão:
 
 v.1.0 ( Testado no Endian Firewall Community nas versões 3.2.1 a 3.2.5).
 
-
+<br>
 
 Requerimentos/opcional:
 --------
 - Requer: Acesso ao seu Endian Firewall atraves do console (Conexão SSH).
 
-
+<br>
 
 Instalando o Pacote:
 --------
@@ -35,7 +35,7 @@ Removendo o pacote:
 
     rpm -e squidanalyzer-endian3
     
-    
+  <br>  
     
 Outras informações:
 ------------------

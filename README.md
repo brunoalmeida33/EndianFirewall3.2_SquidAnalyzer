@@ -30,6 +30,45 @@ Executando a instalação:
     rpm -Uvh squidanalyzer-endian3-1.0-1.x86_64.rpm
     
    <br>
+   
+Configuração de adicional (Recomendado):
+
+Com qualquer editor (vim ou nano), edite o arquivo do logrotate do squid abaixo.
+
+nano /etc/logrotate.d/squid.tmpl
+
+Substitua a linha abaixo:
+
+/var/log/squid/access.log_short {
+    daily
+    # rotate 1 is necessary for squid-graph in order to create
+    # a 24h graph.
+    rotate 1  #EDITAR ESSA LINHA
+    nocompress
+    missingok
+    sharedscripts
+    lastaction
+    /etc/init.d/syslog-ng reload
+    endscript
+}
+
+Editar Para:
+
+/var/log/squid/access.log_short {
+    daily
+    # rotate 1 is necessary for squid-graph in order to create
+    # a 24h graph.
+    rotate 94    #VALOR RECOMENDADO
+    nocompress
+    missingok
+    sharedscripts
+    lastaction
+    /etc/init.d/syslog-ng reload
+    endscript
+}
+
+Salve e feche o arquivo, apos reinicie o Servidor Firewall.
+
 
 Removendo o pacote:
 --------

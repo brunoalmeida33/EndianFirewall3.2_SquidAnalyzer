@@ -31,7 +31,6 @@ Executando a instalação:
     
    <br>
 
-<p>
 Configuração de adicional (Recomendado):
 
 <br>
@@ -48,7 +47,7 @@ Substitua a linha abaixo:
 
 <br>
 
-/var/log/squid/access.log_short {
+/var/log/squid/access.log_short { <br>
     daily
     # rotate 1 is necessary for squid-graph in order to create
     # a 24h graph.

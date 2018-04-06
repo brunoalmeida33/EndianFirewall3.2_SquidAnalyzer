@@ -30,7 +30,8 @@ Executando a instalação:
     rpm -Uvh squidanalyzer-endian3-1.0-1.x86_64.rpm
     
    <br>
-   
+
+<p>
 Configuração de adicional (Recomendado):
 
 <br>
@@ -84,6 +85,7 @@ Editar Para:
 Salve e feche o arquivo, apos reinicie o Servidor Firewall.
 
 <br>
+<\p>
 
 Removendo o pacote:
 --------

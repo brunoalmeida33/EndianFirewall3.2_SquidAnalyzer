@@ -32,13 +32,14 @@ Executando a instalação:
    <br>
    
 Configuração de adicional (Recomendado):
+<br>
 
 Com qualquer editor (vim ou nano), edite o arquivo do logrotate do squid abaixo.
-
+<br>
 nano /etc/logrotate.d/squid.tmpl
-
+<br>
 Substitua a linha abaixo:
-
+<br>
 /var/log/squid/access.log_short {
     daily
     # rotate 1 is necessary for squid-graph in order to create
@@ -51,9 +52,9 @@ Substitua a linha abaixo:
     /etc/init.d/syslog-ng reload
     endscript
 }
-
+<br>
 Editar Para:
-
+<br>
 /var/log/squid/access.log_short {
     daily
     # rotate 1 is necessary for squid-graph in order to create
@@ -66,10 +67,9 @@ Editar Para:
     /etc/init.d/syslog-ng reload
     endscript
 }
-
+<br>
 Salve e feche o arquivo, apos reinicie o Servidor Firewall.
-
-
+<br>
 Removendo o pacote:
 --------
 - No console ssh digite:

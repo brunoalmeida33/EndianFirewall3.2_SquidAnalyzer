@@ -47,7 +47,7 @@ nano +31 /etc/logrotate.d/squid.tmpl
 
 Substitua "rotate 1" para "rotate 94" nesta linha. (obs: sem as aspas " " ).
 
-Segure CTRL e pressione ENTER para salvar o arquivo e CTRL + x para sair do editor nano.
+Segure CTRL + O e pressione ENTER para salvar o arquivo e CTRL + X para sair do editor nano.
 
 para reinicia o firewall utilize o comando "reboot".
 

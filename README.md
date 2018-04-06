@@ -36,6 +36,8 @@ Executando a instalação:
 <br>
 
 Configuração Adicional (Recomendado para backups dos logs do squid):
+--------
+<br>
 
 Edite o arquivo /etc/logrotate.d/squid.tmpl ( com qualquer editor de texto ) na linha 31, substitua o parametro "rotate 1" para "rotate 94", salve o arquivo e reinicie o servidor firewall.
 

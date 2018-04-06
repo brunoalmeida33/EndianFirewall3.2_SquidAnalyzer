@@ -21,14 +21,14 @@ Instalando o Pacote:
 
 Realizando Download:
 
-    curl -Lo squidanalyzer-endian3-1.0-1.x86_64.rpm 
+    curl -Lo squidanalyzer-endian3-1.0-1.x86_64.rpm  https://github.com/brunoalmeida33/EndianFirewall3.2_SquidAnalyzer/blob/master/squidanalyzer-endian3-1.0-1.x86_64.rpm
     
     
 Executando a instalação:
 
     rpm -Uvh squidanalyzer-endian3-1.0-1.x86_64.rpm
     
-    <br>
+   
 
 Removendo o pacote:
 --------

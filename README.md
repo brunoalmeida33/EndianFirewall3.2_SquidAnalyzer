@@ -47,7 +47,7 @@ Substitua a linha abaixo:
 
 <br>
 
-/var/log/squid/access.log_short { <br>
+/var/log/squid/access.log_short {
     daily
     # rotate 1 is necessary for squid-graph in order to create
     # a 24h graph.

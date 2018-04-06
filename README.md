@@ -46,7 +46,7 @@ nano /etc/logrotate.d/squid.tmpl
 Substitua a linha abaixo:
 
 <br>
-
+<quote>
 /var/log/squid/access.log_short {
     daily
     # rotate 1 is necessary for squid-graph in order to create
@@ -59,7 +59,7 @@ Substitua a linha abaixo:
     /etc/init.d/syslog-ng reload
     endscript
 }
-
+<\quote>
 <br>
 
 Editar Para:

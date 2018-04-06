@@ -51,7 +51,7 @@ Segure CTRL + O e pressione ENTER para salvar o arquivo e CTRL + X para sair do 
 
 para reinicia o firewall utilize o comando "reboot".
 
-
+<br>
 
 Removendo o pacote:
 --------

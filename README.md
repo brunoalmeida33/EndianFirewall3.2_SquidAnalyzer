@@ -28,7 +28,7 @@ Executando a instalação:
 
     rpm -Uvh squidanalyzer-endian3-1.0-1.x86_64.rpm
     
-   
+   <br>
 
 Removendo o pacote:
 --------
@@ -45,7 +45,7 @@ Outras informações:
 
 Link Para acesso: HTTPS://IPDOFIREWALL:10443/squidanalyzer/
 
-Observações: Os relatorios são atualizados a cada hora automaticamente, inicialmente nenhum relatorio é gerado, caso queira executa-lo manualmente, é necessario logar no SSH como root e executar o comando "squid-analyzer". 
+Observações: Os relatorios são atualizados a cada 55 minutos automaticamente, inicialmente nenhum relatorio é gerado, caso queira executa-lo manualmente, é necessario logar no SSH como root e executar o comando "squid-analyzer". 
 
 Espero ter ajudado.
 
